@@ -24,6 +24,7 @@ Artreads::Application.configure do
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
+config.action_mailer.default_url_options = { :host => "http://comicreads.com" }
 
   # Use SQL instead of Active Record's schema dumper when creating the test database.
   # This is necessary if your schema can't be completely dumped by the schema dumper,
@@ -33,3 +34,13 @@ Artreads::Application.configure do
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
 end
+TWITTER_CONSUMER_KEY = 'Bo0chp3apBimzR3ra00SQ'
+TWITTER_CONSUMER_SECRET = 'RiQSHmxKiAzwlq21iwcakDvSPW6PODcjQN46bpuXS4'
+
+
+FACEBOOK_CONSUMER_KEY = ''
+FACEBOOK_CONSUMER_SECRET = ''
+FACEBOOK_CLIENT_ID = ''
+
+
+BASE_URL = 'http://comicreads.com'

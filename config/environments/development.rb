@@ -16,6 +16,7 @@ Artreads::Application.configure do
 
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
+config.action_mailer.default_url_options = { :host => "http://comicreads.com" }
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
@@ -24,3 +25,13 @@ Artreads::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
 end
 
+TWITTER_CONSUMER_KEY = 'Bo0chp3apBimzR3ra00SQ'
+TWITTER_CONSUMER_SECRET = 'RiQSHmxKiAzwlq21iwcakDvSPW6PODcjQN46bpuXS4'
+
+
+FACEBOOK_CONSUMER_KEY = ''
+FACEBOOK_CONSUMER_SECRET = ''
+FACEBOOK_CLIENT_ID = ''
+
+
+BASE_URL = 'http://comicreads.com'
